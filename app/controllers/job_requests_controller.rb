@@ -5,7 +5,7 @@ class JobRequestsController < ApplicationController
   # GET /job_requests
   # GET /job_requests.json
   def index
-    @job_requests = JobRequest.all
+    @job_requests = JobRequest.all.order(:day)
   end
 
   # GET /job_requests/1
