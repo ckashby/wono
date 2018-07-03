@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :job_requests
   devise_for :users
   root 'pages#index'
   get 'about', to: 'pages#about'

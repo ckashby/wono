@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  day: 2018-07-02
+  desc: MyText
+  time: 2018-07-02 17:04:21
+  user_id: 1
+
+two:
+  title: MyString
+  day: 2018-07-02
+  desc: MyText
+  time: 2018-07-02 17:04:21
+  user_id: 1

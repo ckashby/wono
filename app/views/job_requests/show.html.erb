@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @job_request.title %>
+</p>
+
+<p>
+  <strong>Day:</strong>
+  <%= @job_request.day %>
+</p>
+
+<p>
+  <strong>Desc:</strong>
+  <%= @job_request.desc %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @job_request.time %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @job_request.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_job_request_path(@job_request) %> |
+<%= link_to 'Back', job_requests_path %>
