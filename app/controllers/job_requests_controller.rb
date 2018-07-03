@@ -1,5 +1,6 @@
 class JobRequestsController < ApplicationController
   before_action :set_job_request, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
 
   # GET /job_requests
   # GET /job_requests.json
